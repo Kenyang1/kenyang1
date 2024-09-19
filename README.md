@@ -1,8 +1,6 @@
 ### 💫 Hey There!
 
-I'm Kenyang!
-<br>
-<br> | 📚 First-Generation College Student <br>| 💻 Aspiring Tech Innovator <br>| 🌍 Community Empowerment through Technology & Faith
+| 📚 First-Generation College Student <br>| 💻 Aspiring Tech Innovator <br>| 🌍 Community Empowerment through Technology & Faith
 
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kenyanglual) 
