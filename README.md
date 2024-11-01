@@ -25,10 +25,6 @@
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
 
 ## GitHub Stats
-![Kenyang's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kenyang1&show_icons=true&theme=tokyonight)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Kenyang1&theme=dark&hide_border=false)<br/>
 
 ---
-## 🎼What I'm Listening to 🎼
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=kenyangj&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
