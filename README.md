@@ -30,5 +30,5 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Leetcode
-[![Kenyang1's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Kenyang1&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Kenyang1?theme=dark&font=DM%20Mono&ext=heatmap)
 
