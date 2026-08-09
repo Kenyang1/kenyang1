@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Kenyang system core</title>
+  <desc id="desc">Three neon panels summarize what Kenyang builds, explores, and believes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617" /><stop offset="1" stop-color="#081123" /></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE" /><stop offset="0.5" stop-color="#8B5CF6" /><stop offset="1" stop-color="#EC4899" /></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#22D3EE" stop-opacity="0.28" /><stop offset="1" stop-color="#020617" stop-opacity="0" /></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#38BDF8" stroke-opacity="0.045" /></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+    <style>
+      .over{font:700 12px ui-monospace,Menlo,Consolas,monospace;fill:#94A3B8;letter-spacing:2px}.head{font:900 25px 'Segoe UI',Arial,sans-serif;fill:#F8FAFC;letter-spacing:1px}.sub{font:600 14px 'Segoe UI',Arial,sans-serif;fill:#7DD3FC}.item{font:600 14px 'Segoe UI',Arial,sans-serif;fill:#DBEAFE}
+    </style>
+  </defs>
+  <rect width="1200" height="430" fill="url(#bg)" />
+  <rect width="1200" height="430" fill="url(#grid)" />
+  <path d="M70 52H455M745 52H1130" stroke="url(#edge)" stroke-width="2" />
+  <g transform="translate(600 49)" filter="url(#glow)">
+    <circle r="24" fill="url(#aura)" />
+    <circle r="17" fill="none" stroke="#22D3EE" stroke-width="3" stroke-dasharray="8 6"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite" /></circle>
+    <circle r="6" fill="#67E8F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" /></circle>
+  </g>
+  <text x="600" y="101" text-anchor="middle" class="head">KENYANG CORE</text>
+  <text x="600" y="126" text-anchor="middle" class="over">CAPABILITIES • CURIOSITY • ENGINEERING VALUES</text>
+
+  <g transform="translate(60 157)">
+    <rect width="340" height="224" rx="18" fill="#030817" stroke="#28415D" stroke-width="2" />
+    <path d="M18 1H322" stroke="url(#edge)" stroke-width="2" />
+    <text x="34" y="52" class="head">BUILD</text>
+    <text x="34" y="78" class="sub">Products • Platforms • APIs</text>
+    <g class="item">
+      <circle cx="39" cy="113" r="4" fill="#22D3EE" /><text x="57" y="119">Mobile-first experiences</text>
+      <circle cx="39" cy="145" r="4" fill="#22D3EE" /><text x="57" y="151">Responsive web products</text>
+      <circle cx="39" cy="177" r="4" fill="#22D3EE" /><text x="57" y="183">Typed and tested APIs</text>
+      <circle cx="39" cy="209" r="4" fill="#22D3EE" /><text x="57" y="215">Useful, accessible interfaces</text>
+    </g>
+  </g>
+
+  <g transform="translate(430 157)">
+    <rect width="340" height="224" rx="18" fill="#030817" stroke="#3B356A" stroke-width="2" />
+    <path d="M18 1H322" stroke="url(#edge)" stroke-width="2" />
+    <text x="34" y="52" class="head">EXPLORE</text>
+    <text x="34" y="78" class="sub">AI • Systems • Creative Code</text>
+    <g class="item">
+      <circle cx="39" cy="113" r="4" fill="#8B5CF6" /><text x="57" y="119">AI-powered everyday tools</text>
+      <circle cx="39" cy="145" r="4" fill="#8B5CF6" /><text x="57" y="151">System design patterns</text>
+      <circle cx="39" cy="177" r="4" fill="#8B5CF6" /><text x="57" y="183">Game development</text>
+      <circle cx="39" cy="209" r="4" fill="#8B5CF6" /><text x="57" y="215">Music and creative engineering</text>
+    </g>
+  </g>
+
+  <g transform="translate(800 157)">
+    <rect width="340" height="224" rx="18" fill="#030817" stroke="#61314F" stroke-width="2" />
+    <path d="M18 1H322" stroke="url(#edge)" stroke-width="2" />
+    <text x="34" y="52" class="head">BELIEVE</text>
+    <text x="34" y="78" class="sub">Community • Faith • Growth</text>
+    <g class="item">
+      <circle cx="39" cy="113" r="4" fill="#EC4899" /><text x="57" y="119">People before features</text>
+      <circle cx="39" cy="145" r="4" fill="#EC4899" /><text x="57" y="151">Learning never stops</text>
+      <circle cx="39" cy="177" r="4" fill="#EC4899" /><text x="57" y="183">Clarity builds trust</text>
+      <circle cx="39" cy="209" r="4" fill="#EC4899" /><text x="57" y="215">Technology should lift others</text>
+    </g>
+  </g>
+</svg>

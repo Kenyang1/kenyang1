@@ -1,74 +1,93 @@
-# Customize your game profile
+# System manual: customize your profile
 
-Your profile is built from three files:
+This profile uses a futuristic system-portal layout built from editable Markdown and original animated SVG files.
 
-- `README.md` contains the words, links, badges, projects, and live stat cards.
-- `assets/hero.svg` contains the cartoon banner.
-- `.github/workflows/arcade.yml` refreshes the Pac-Man contribution animation once a day.
+## File map
 
-Everything uses plain text, so you can edit it directly on GitHub or in any code editor.
+- `README.md` controls the layout, writing, links, technology icons, live statistics, and contact buttons.
+- `assets/system/` contains all local neon panels and animations.
+- `.github/workflows/arcade.yml` refreshes the Pac-Man contribution graph every day.
+
+No JavaScript or build step is required. GitHub renders everything directly.
 
 ## Make a quick edit on GitHub
 
 1. Open this repository on GitHub.
 2. Select `README.md`.
 3. Select the pencil icon labeled **Edit this file**.
-4. Search for `EDIT ME` to jump to the parts designed for frequent changes.
-5. Use the **Preview** tab to check the result.
+4. Search for `EDIT ME` or the visible section title you want to change.
+5. Use the **Preview** tab to review the result.
 6. Select **Commit changes** when it looks right.
 
-## Change your character card
+## Change the animated introduction
 
-In `README.md`, find `PLAYER_01`. Edit the text in the **Current loadout** column. Keep the `|` characters because they define the table columns.
+The typing animation is an image URL inside `README.md`. Its phrases appear after `lines=` and are separated by semicolons:
 
-## Change your quests
-
-Find `QUEST_LOG` in `README.md`. Each quest is a normal Markdown list item:
-
-```md
-- 🛡️ **Main quest:** Describe the goal here.
+```text
+lines=Software+Engineering+Intern;Full-Stack+%2B+Mobile+Developer
 ```
 
-You can change the emoji, quest name, or description. Add another line beginning with `-` to add a quest.
+Use `+` for spaces. `%2B` displays a plus sign, and `%40` displays `@`.
 
-## Feature a different project
+## Edit the technical name header
 
-Find `ADVENTURE_MAP` in `README.md`. A project row follows this pattern:
+Open `assets/system/technical-header.svg` and search for `KENYANG LUAL`. The same file contains the role line, education status, and system-status chips. Keep the name concise so it remains centered inside the interface frame.
 
-```md
-| [**🎮 Project name**](https://github.com/Kenyang1/repository-name) | One-sentence mission. | `Tool` `Tool` `Tool` |
+## Change a portal destination
+
+Each clickable portal follows this pattern:
+
+```html
+<a href="DESTINATION_URL">
+  <img src="./assets/system/PORTAL.svg" alt="Description" />
+</a>
 ```
 
-Replace the name, repository URL, mission, and power-ups. Keep one project per line.
+Change only the `href` value to send visitors somewhere new. The three small portals currently lead to Guardian, AspireAI, and the complete project archive.
 
-## Add or remove a skill badge
+## Edit the neon SVG panels
 
-Badges in `INVENTORY` come from [Shields.io](https://shields.io/). Duplicate an existing badge line, then change its label and logo. The profile palette is:
+Every file in `assets/system/` is plain SVG markup. The safest edits are text and colors:
 
-| Color | Hex | Used for |
-| :--- | :--- | :--- |
-| Midnight | `17213B` | Badge backgrounds |
-| Gold | `FFCB6B` | Highlights |
-| Mint | `6DE2BD` | Progress and success |
-| Coral | `FF6B6B` | Calls to action |
-| Blue | `6C9EFF` | Links and technology |
-| Cream | `F7F3E8` | Light text |
+- Visible wording is inside `<text>` elements.
+- The main palette uses `#22D3EE` (cyan), `#8B5CF6` (violet), and `#EC4899` (pink).
+- Backgrounds use `#020617` and `#071226`.
+- Light text uses `#F8FAFC`; secondary text uses `#94A3B8`.
+- Keep each file's existing `viewBox` value so it remains responsive.
 
-## Edit the cartoon banner
+Open an SVG in a browser to preview it. Animations use native SVG elements such as `<animate>` and `<animateTransform>`.
 
-Open `assets/hero.svg` as text. SVG is markup: shapes use tags such as `<rect>`, `<circle>`, `<path>`, and `<text>`.
+## Change the system-core statements
 
-The easiest safe changes are text and color:
+Open `assets/system/kenyang-core.svg` and search for these headings:
 
-- Change `KENYANG LUAL`, `FULL-STACK EXPLORER`, or the mission line inside `<text>` tags.
-- Replace any palette hex code to recolor every matching element.
-- Keep the `viewBox="0 0 1200 460"` value so the banner remains responsive.
+- `BUILD` describes your current engineering capabilities.
+- `EXPLORE` describes subjects you are learning or experimenting with.
+- `BELIEVE` describes the principles behind your work.
 
-After editing, open the SVG file in a browser to preview it.
+Keep each bullet concise so it remains inside its panel.
+
+## Add or remove a technology
+
+The technologies table in `README.md` uses icons from [Devicon](https://devicon.dev/). An icon cell looks like this:
+
+```html
+<td align="center">
+  <img src="DEVICON_URL" width="34" alt="Technology" title="Technology" />
+</td>
+```
+
+Replace an existing cell or add another table row with four cells to keep the grid balanced.
+
+## Change the live statistics
+
+The statistics and LeetCode cards are URL-based images in `README.md`. Change `username=Kenyang1` or `user=Kenyang1` only if your account name changes.
+
+External stat-card services can occasionally be rate-limited. A temporary broken card usually resolves without any repository change.
 
 ## Start or repair the Pac-Man animation
 
-The contribution game is created by the **Generate arcade contribution graph** workflow. It runs after the workflow is added to `main`, and then once every day.
+The **Generate arcade contribution graph** workflow runs when it reaches `main` and then once every day.
 
 If the animation has not appeared:
 
@@ -78,13 +97,11 @@ If the animation has not appeared:
 4. Wait for the run to finish and confirm that an `output` branch was created.
 5. Refresh your profile.
 
-To remove the animation, delete the `ARCADE_MODE` block from `README.md` and delete `.github/workflows/arcade.yml`.
+To remove the game, delete the `Pac-Man Contribution Grid` block from `README.md` and delete `.github/workflows/arcade.yml`.
 
-## Preview before publishing
+## GitHub compatibility notes
 
-GitHub's own **Preview** tab is the most accurate preview because GitHub limits some HTML and styling. Keep these compatibility rules in mind:
-
-- GitHub README files do not run JavaScript.
-- CSS files and `<style>` tags are not supported.
-- Relative images such as `./assets/hero.svg` work after the files are committed together.
-- Live stat cards need an internet connection and can occasionally be rate-limited by their providers.
+- Profile README files cannot run JavaScript.
+- GitHub removes most embedded CSS and `<style>` blocks from Markdown, but styles inside linked SVG files work.
+- Relative images must be committed in the same branch as `README.md`.
+- GitHub's **Preview** tab is the most accurate final check.

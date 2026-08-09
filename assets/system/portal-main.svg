@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Kenyang main system portal</title>
+  <desc id="desc">A neon portal linking to Kenyang's portfolio, projects, experience, and story.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617" /><stop offset="0.52" stop-color="#0D1631" /><stop offset="1" stop-color="#08051A" /></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE" /><stop offset="0.5" stop-color="#8B5CF6" /><stop offset="1" stop-color="#EC4899" /></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#38BDF8" stroke-opacity="0.055" /></pattern>
+    <filter id="glow" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="4" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+    <style>
+      .over{font:800 14px ui-monospace,Menlo,Consolas,monospace;fill:#67E8F9;letter-spacing:6px}
+      .title{font:900 58px 'Segoe UI',Arial,sans-serif;fill:#F8FAFC;letter-spacing:2px}
+      .sub{font:600 22px 'Segoe UI',Arial,sans-serif;fill:#94A3B8}
+      .pill{font:800 13px ui-monospace,Menlo,Consolas,monospace;fill:#E2E8F0;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="1200" height="330" rx="30" fill="url(#bg)" />
+  <rect width="1200" height="330" rx="30" fill="url(#grid)" />
+  <path d="M30 8H560M640 8H1170Q1192 8 1192 30V147M1192 183V300Q1192 322 1170 322H885M785 322H415M315 322H30Q8 322 8 300V184M8 146V30Q8 8 30 8Z" fill="none" stroke="url(#edge)" stroke-width="3" />
+  <path d="M92 72H390M810 72H1108" stroke="url(#edge)" stroke-width="3" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="20 280;220 80;20 280" dur="6s" repeatCount="indefinite" />
+  </path>
+  <text x="600" y="91" text-anchor="middle" class="over">PRIMARY SYSTEM PORTAL</text>
+  <text x="600" y="165" text-anchor="middle" class="title">KENYANG MAIN SYSTEM</text>
+  <text x="600" y="211" text-anchor="middle" class="sub">Projects  |  Experience  |  Resume  |  About</text>
+  <path d="M120 246H466M734 246H1080" stroke="url(#edge)" stroke-width="2" />
+  <g transform="translate(600 281)">
+    <rect x="-94" y="-22" width="188" height="44" rx="22" fill="#071226" stroke="#22D3EE" stroke-width="2" filter="url(#glow)" />
+    <text x="0" y="5" text-anchor="middle" class="pill">ENTER SYSTEM →</text>
+  </g>
+</svg>
