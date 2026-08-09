@@ -1,34 +1,124 @@
-### ⭐ Hey There! ⭐
+<!--
+  KENYANG'S PROFILE README
+  Quick edits are labeled "EDIT ME" below.
+  For a complete walkthrough, open CUSTOMIZE.md.
+-->
 
-| 📚 First-Generation College Student <br>| 💻 Aspiring Tech Innovator <br>| 🌍 Community Empowerment through Technology & Faith
+<div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Kenyang Lual's colorful developer game profile banner" />
 
+  <br />
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kenyanglual) 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kenyanglual05@gmail.com)
+  <!-- EDIT ME: Update these destinations if your links change. -->
+  <a href="https://www.klual.com/"><img alt="Portfolio" src="https://img.shields.io/badge/ENTER_PORTFOLIO-FFCB6B?style=for-the-badge&logo=googlechrome&logoColor=17213B" /></a>
+  <a href="https://www.linkedin.com/in/kenyanglual/"><img alt="LinkedIn" src="https://img.shields.io/badge/FORM_A_PARTY-6C9EFF?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:kenyanglual05@gmail.com"><img alt="Email" src="https://img.shields.io/badge/SEND_A_MESSAGE-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
 
+## `PLAYER_01` · character card
 
-## Languages
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+<!-- EDIT ME: Change any value in the right column as your story evolves. -->
 
+| Attribute | Current loadout |
+| :--- | :--- |
+| **Name** | Kenyang Lual |
+| **Class** | Full-Stack + Mobile Developer |
+| **Origin story** | First-generation college student |
+| **Guild** | Computer Science @ SNHU · Class of 2027 |
+| **Current party** | Software Engineering Intern @ Fidelity Investments |
+| **Home base** | Manchester, New Hampshire |
+| **Main quest** | Build approachable technology that helps people discover, organize, and understand what matters |
+| **Party buff** | Curiosity + community + faith |
 
-## Frameworks & Tools
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+```text
+ENERGY    ♥ ♥ ♥ ♥ ♥
+CURIOSITY ██████████  MAX
+LEARNING  ████████░░  ALWAYS IN PROGRESS...
+STATUS    [ ONLINE AND BUILDING ]
+```
 
-## Leetcode
-![LeetCode Stats](https://leetcard.jacoblin.cool/Kenyang1?theme=dark&font=DM%20Mono&ext=heatmap)
+## `QUEST_LOG` · what I am working toward
 
+<!-- EDIT ME: Replace these quests whenever your focus changes. -->
+
+- 🛡️ **Main quest:** Grow **Guardian**, an approachable personal-finance experience for mobile and web.
+- 🧠 **Skill quest:** Level up in system design, algorithms, and dependable full-stack architecture.
+- 🤖 **Discovery quest:** Explore where AI can make everyday tools more useful and human.
+- 🌍 **Co-op quest:** Use technology to strengthen communities and help others move forward.
+
+## `ADVENTURE_MAP` · featured builds
+
+<!-- EDIT ME: Swap a table row to feature a different repository. -->
+
+| World | Mission | Power-ups |
+| :--- | :--- | :--- |
+| [**🛡️ Guardian**](https://github.com/Kenyang1/guardian-app) | Make budgeting feel clear, protected, and approachable across mobile and web. | `Expo` `React Native` `TypeScript` |
+| [**⚙️ Guardian API**](https://github.com/Kenyang1/guardian-api) | Power Guardian with typed, tested endpoints and secure user-scoped data. | `Express` `Zod` `PostgreSQL` |
+| [**🐈 Chef Cat Platformer**](https://github.com/Kenyang1/cat-platformer) | Turn a chef-cat sprite sheet into a playable platformer with movement and double jumps. | `Python` `Pygame` `Pixel Art` |
+| [**🗺️ Portfolio**](https://github.com/Kenyang1/portfolio) | Tell the story behind my work, education, creativity, and growth as a developer. | `HTML` `CSS` `JavaScript` |
+
+## `INVENTORY` · tools collected
+
+<!-- EDIT ME: Add or remove badge lines as your toolkit changes. -->
+
+<div align="center">
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-17213B?style=for-the-badge&logo=typescript&logoColor=6C9EFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-17213B?style=for-the-badge&logo=javascript&logoColor=FFCB6B)
+![Python](https://img.shields.io/badge/Python-17213B?style=for-the-badge&logo=python&logoColor=6DE2BD)
+![C Sharp](https://img.shields.io/badge/C%23-17213B?style=for-the-badge&logo=csharp&logoColor=BE95FF)
+![C++](https://img.shields.io/badge/C%2B%2B-17213B?style=for-the-badge&logo=cplusplus&logoColor=6C9EFF)
+![Java](https://img.shields.io/badge/Java-17213B?style=for-the-badge&logo=openjdk&logoColor=FF6B6B)
+
+**Frameworks + tools**
+
+![React](https://img.shields.io/badge/React-17213B?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-17213B?style=for-the-badge&logo=expo&logoColor=F7F3E8)
+![Angular](https://img.shields.io/badge/Angular-17213B?style=for-the-badge&logo=angular&logoColor=FF6B6B)
+![Node.js](https://img.shields.io/badge/Node.js-17213B?style=for-the-badge&logo=nodedotjs&logoColor=6DE2BD)
+![Next.js](https://img.shields.io/badge/Next.js-17213B?style=for-the-badge&logo=nextdotjs&logoColor=F7F3E8)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17213B?style=for-the-badge&logo=postgresql&logoColor=6C9EFF)
+![Firebase](https://img.shields.io/badge/Firebase-17213B?style=for-the-badge&logo=firebase&logoColor=FFCB6B)
+![Git](https://img.shields.io/badge/Git-17213B?style=for-the-badge&logo=git&logoColor=FF8066)
+
+</div>
+
+## `STATS_ROOM` · live player data
+
+<div align="center">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kenyang1&theme=tokyonight" alt="Kenyang's GitHub stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kenyang1&theme=tokyonight" alt="Kenyang's most-used public repository languages" />
+</div>
+
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/Kenyang1?theme=dark&font=DM%20Mono&ext=heatmap&border=0" alt="Kenyang's LeetCode stats" />
+</div>
+
+## `ARCADE_MODE` · contributions in motion
+
+<!--
+  This image is generated by .github/workflows/arcade.yml.
+  It appears after the workflow runs once on GitHub.
+-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kenyang1/kenyang1/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kenyang1/kenyang1/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man animation eating Kenyang's GitHub contributions" src="https://raw.githubusercontent.com/Kenyang1/kenyang1/output/pacman-contribution-graph.svg" />
+</picture>
+
+<div align="center">
+
+### `PRESS START TO SAY HELLO`
+
+I enjoy meeting people who care about thoughtful products, creative engineering, and technology with a purpose.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-www.klual.com-FFCB6B?style=flat-square)](https://www.klual.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kenyanglual-6C9EFF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kenyanglual/)
+[![Email](https://img.shields.io/badge/Email-kenyanglual05%40gmail.com-FF6B6B?style=flat-square&logo=gmail&logoColor=white)](mailto:kenyanglual05@gmail.com)
+
+<sub>Want to change a quest, color, link, or project? Open the <a href="./CUSTOMIZE.md">customization guide</a>.</sub>
+
+</div>
